@@ -32,9 +32,9 @@ public class HourlyEmployee extends Employee {
 	@Override
 	public String toString() {
 		return String.format(super.toString() + 
-							 "\nPay rate: %f" +
-							 "\nHours Worked: %f" +
-							 "\nTotal Income: $%f", payRate, hoursWorked, calculateIncome());
+							 "\n  Pay rate: %f" +
+							 "\n  Hours Worked: %f" +
+							 "\n  Total Income: $%f", payRate, hoursWorked, calculateIncome());
 	}
 	
 }
