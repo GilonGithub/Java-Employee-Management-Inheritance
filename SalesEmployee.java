@@ -33,8 +33,8 @@ public class SalesEmployee extends Employee {
 	@Override
 	public String toString() {
 		return String.format(super.toString() +
-							 "\n  Total Sales: %f" +
-							 "\n  Commission Rate: %f" +
-							 "\n  Total Income: $%f", totalSales, commissionRate, calculateIncome());
+							 "\n  Total Sales: %.2f" +
+							 "\n  Commission Rate: %.2f" +
+							 "\n  Total Income: $%.2f", totalSales, commissionRate, calculateIncome());
 	}
 }
